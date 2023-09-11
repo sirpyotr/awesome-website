@@ -1,6 +1,7 @@
 body {
     font-family: monospace, sans-serif;
     margin: 0;
+    height: 100vh;
 }
 
 li, ul {
@@ -139,6 +140,11 @@ a {
 
 .section-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px 200px;
+    gap: 15px;
 }
 
 .section-three .main-quote {
@@ -147,14 +153,49 @@ a {
     font-style: italic;
 }
 
+.section-three .quote-origin {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: large;
+}
+
 /* SECTION-FOUR ------------------------- */
 
 .section-four {
-
+    display: flex;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
 }
 
 .section-four .container {
     background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    margin: auto 200px;
+    align-items: center;
+    justify-content:space-around;
+    /* width: 100vw; */
+    flex: 1;
+    padding: 30px;
+    /* gap: 400px; */
+}
+
+.section-four .sign {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 16px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: large;
+}
+
+.section-four .big-text {
+    font-size: x-large;
+    font-weight: 800;
 }
 
 /* FOOTER --------------------------- */
@@ -162,4 +203,9 @@ a {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding: 30px;
 }
