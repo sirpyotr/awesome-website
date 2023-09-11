@@ -1,211 +1,213 @@
 body {
-    font-family: monospace, sans-serif;
-    margin: 0;
-    height: 100vh;
+  font-family: monospace, sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
-li, ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER --------------------- */
 
 .header {
-    color: #F9FAF8;
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 200px;
-    align-items: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+  align-items: center;
 }
 
 .header .top-links {
-    display: flex;
-    gap: 15px;
-    flex-shrink: 0;
+  display: flex;
+  gap: 15px;
+  flex-shrink: 0;
 }
 
 .header .logo {
-    font-size: 24px;
-    font-weight: 700;
-    flex-shrink: 0;
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
 }
 
 .header .links {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
-.top-links a, .section-one .text  {
-    color: #E5E7EB;
+.top-links a,
+.section-one .text {
+  color: #e5e7eb;
 }
 
 /* SECTION-ONE HERO ---------------------------- */
 
 .section-one {
-    background-color: #1F2937;
-    color: #F9FAF8;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 .section-one img {
-    height: 300px;
-    width: 600px;
-    border: #F9FAF8;
-    background-color: #E5E7EB;
+  height: 300px;
+  width: 600px;
+  border: #f9faf8;
+  background-color: #e5e7eb;
 }
 
 .section-one .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
 }
 
 .section-one .content {
-    height: 300px;
-    width: 600px;
-    flex-shrink: 0;
+  height: 300px;
+  width: 600px;
+  flex-shrink: 0;
 }
 
 .section-one .big-text {
-    font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
 }
 
 .section-one .text {
-    font-size: 18px;
-    margin-bottom: 25px;
+  font-size: 18px;
+  margin-bottom: 25px;
 }
 
 .section-one .sign {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 8px;
-    padding: 16px 32px;
-    border: 1px solid #E5E7EB;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: large;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  padding: 16px 32px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
 }
 
 /* SECTION-TWO-------------------- */
 
 .section-two {
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-two .big-text {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    text-align: center;
-    padding: 50px;
-    flex-shrink: 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 50px;
+  flex-shrink: 0;
 }
 .section-two img {
-    background-color: #E5E7EB;
-    border: 4px solid #3882F6;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-    height: 200px;
-    width: 200px;
-    border-radius: 10%;
+  background-color: #e5e7eb;
+  border: 4px solid #3882f6;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
 }
 
 .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
 }
 
 .section-two .card {
-    max-width: 200px;
-    text-align: center;
+  max-width: 200px;
+  text-align: center;
 }
 
 .section-two .text {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* SECTION-THREE------------------------- */
 
 .section-three {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 100px 200px;
-    gap: 15px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px 200px;
+  gap: 15px;
 }
 
 .section-three .main-quote {
-    font-size: 36px;
-    font-weight: 100;
-    font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .section-three .quote-origin {
-    font-weight: bold;
-    align-self: flex-end;
-    font-size: large;
+  font-weight: bold;
+  align-self: flex-end;
+  font-size: large;
 }
 
 /* SECTION-FOUR ------------------------- */
 
 .section-four {
-    display: flex;
-    color: #F9FAF8;
-    align-items: center;
-    justify-content: center;
-    padding: 70px;
+  display: flex;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
 }
 
 .section-four .container {
-    background-color: #3882F6;
-    border-radius: 5px;
-    display: flex;
-    margin: auto 200px;
-    align-items: center;
-    justify-content:space-around;
-    /* width: 100vw; */
-    flex: 1;
-    padding: 30px;
-    /* gap: 400px; */
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  margin: auto 200px;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 100vw; */
+  flex: 1;
+  padding: 30px;
+  /* gap: 400px; */
 }
 
 .section-four .sign {
-    background-color: #3882F6;
-    border: 2px solid #F9FAF8;
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 8px 16px;
-    color: #F9FAF8;
-    font-weight: bold;
-    font-size: large;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 16px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: large;
 }
 
 .section-four .big-text {
-    font-size: x-large;
-    font-weight: 800;
+  font-size: x-large;
+  font-weight: 800;
 }
 
 /* FOOTER --------------------------- */
 
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-    padding: 30px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  padding: 30px;
 }
