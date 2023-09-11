@@ -13,6 +13,8 @@ a {
     text-decoration: none;
 }
 
+/* HEADER --------------------- */
+
 .header {
     color: #F9FAF8;
     background-color: #1F2937;
@@ -42,13 +44,11 @@ a {
     color: #E5E7EB;
 }
 
+/* SECTION-ONE HERO ---------------------------- */
+
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
-    /* display: flex;
-    justify-content:center;
-    align-items: center; */
-    gap: 50px;
 }
 
 .section-one img {
@@ -62,7 +62,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
     padding: 100px 200px;
 }
 
@@ -70,22 +69,32 @@ a {
     height: 300px;
     width: 600px;
     flex-shrink: 0;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .section-one .big-text {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .section-one .text {
     font-size: 18px;
+    margin-bottom: 25px;
 }
 
 .section-one .sign {
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 16px 32px;
+    border: 1px solid #E5E7EB;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
 }
+
+/* SECTION-TWO-------------------- */
+
 .section-two {
 
 }
@@ -95,6 +104,8 @@ a {
     color: #1F2937;
     font-weight: 900;
 }
+
+/* SECTION-THREE------------------------- */
 
 .section-three {
     background-color: #E5E7EB;
@@ -106,6 +117,8 @@ a {
     font-style: italic;
 }
 
+/* SECTION-FOUR ------------------------- */
+
 .section-four {
 
 }
@@ -113,6 +126,8 @@ a {
 .section-four .container {
     background-color: #3882F6;
 }
+
+/* FOOTER --------------------------- */
 
 .footer {
     background-color: #1F2937;
